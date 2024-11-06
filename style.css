@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+header {
+    border: 2px solid black;
+    background-color: black;
+    height: 80px; /* Set height of the header */
+    overflow: hidden; /* Hide any overflow if it occurs */
+}
+
+.navBar {
+    color: white;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Align items vertically centered */
+    height: 100%; /* Make navbar fill the header's height */
+    padding: 0 10px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's width */
+}
+
+.squidLogo {
+    border: 2px solid red;
+    height: 60px; /* Adjust height to fit within the header */
+    width: 60px; /* Adjust width to prevent overflow */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.squidMidNavbar {
+    border: 2px solid red;
+    display: flex; /* Display links in a row */
+    flex-grow: 1; /* Allow mid-navbar to grow and fill space */
+    justify-content: center; /* Center the links */
+    height: 100%; /* Match the height of the navBar */
+}
+
+.squidAction {
+    border: 2px solid red;
+    flex-shrink: 0; /* Prevent shrinking */
+    height: 60px; /* Adjust height to fit within the header */
+    padding: 10px; /* Add padding for some spacing */
+}
+
+a {
+    margin: 10px; /* Reduce margin to prevent overflow */
+    color: white; /* Ensure link color is visible */
+    text-decoration: none; /* Remove underline from links */
+}
+

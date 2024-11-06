@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background-color: rgba(21, 13, 30, 0.921);
+    height: 80px;
+    overflow: hidden; 
+}
+
+.navBar {
+    color: rgb(255, 0, 17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.squidLogo {
+    background-image: url("../squidImage/download-removebg-preview.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    flex-shrink: 0;
+}
+
+.squidMidNavbar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    height: 100%;
+}
+
+.squidAction {
+    flex-shrink: 0;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+a {
+    margin: 10px;
+    margin-left: 11%;
+    /* padding-left: 11%; */
+    color: rgb(236, 16, 93);
+    text-decoration: none;
+}
+.squidGround{
+    background-color: rgba(21, 13, 30, 0.921);
+    border: 2px solid indianred;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+#box1{
+    background-image: url('../squidImage/squidGamebox1.jpg');
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+#box2point1{
+    background-image: url('../squidImage/gameStart1.jpg');
+    background-size: cover;
+    /* border: 2px solid greenyellow; */
+    /* display: flex;
+    flex-flow: column;
+    justify-content: center; */
+}
+.gameBoxInside{
+    background-color: rgba(135, 207, 235, 0.323);
+    border: 2px  solid silver;
+    row-gap: 2px;
+    height: 15%;
+    width: 80%;
+    margin: 15%;
+    margin-top: 10%;
+}
+
+#box2point2{
+    background-image: url('../squidImage/gameStart2.jpg');
+    background-size: cover;
+    /* border: 2px solid greenyellow; */
+}
+#box4{
+    background-image: url('../squidImage/squidGamebox1.jpg');
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+.combineBox1Box4{
+    background-color: white;
+    width: 30%;
+}
+.combinebox1point1box2point2{
+    /* background-color: rgba(0, 0, 0, 0.775); */
+    width: 20%;
+}
+.squidFooter{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /* background-color: rgba(21, 13, 30, 0.921); */
+    text-align: center;
+    
+}
+.footerAnchor{
+    color: rgb(255, 0, 0);
+}
